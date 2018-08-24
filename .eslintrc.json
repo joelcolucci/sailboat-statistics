@@ -1,0 +1,12 @@
+{
+  "extends": "google",
+  "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+  },
+  "rules": {
+      "comma-dangle": ["error", "never"],
+      "object-curly-spacing": 0,
+      "require-jsdoc": "off"
+  }
+}
