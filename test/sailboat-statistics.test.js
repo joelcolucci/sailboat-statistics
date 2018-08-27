@@ -32,12 +32,11 @@ describe('Sailboat statistics', () => {
 
   test('getDisplacementLengthRatio', () => {
     let displacement = 19500;
-    let displacementInTons = displacement / 2240;
     let lwl = 25.83;
     let displacementLengthRatioExpected = 505.141877995885;
 
     let displacementLengthRatioResult =
-      getDisplacementLengthRatio(displacementInTons, lwl);
+      getDisplacementLengthRatio(displacement, lwl);
 
     expect(displacementLengthRatioResult)
       .toEqual(displacementLengthRatioExpected);
