@@ -22,36 +22,36 @@ console.log(hullSpeed); // 7.34
 
 ## Documentation
 ### `getTheoreticalHullSpeed(lwl)`
-| Arguments | Description |
+| Parameters | Description |
 | --- | --- |
 | lwl | Length of waterline in feet |
 
 ### `getBallastDisplacementRatio(displacement, ballast)`
-| Arguments | Description |
+| Parameters | Description |
 | --- | --- |
 | displacement | Displacement in pounds |
 | ballast | Ballast in pounds |
 
 ### `getDisplacementLengthRatio(displacement, lwl)`
-| Arguments | Description |
+| Parameters | Description |
 | --- | --- |
 | displacement | Displacement in pounds |
 | lwl | Length of waterline in feet |
 
 ### `getSailAreaDisplacementRatio(sailArea, displacement)`
-| Arguments | Description |
+| Parameters | Description |
 | --- | --- |
 | sailArea | Sail area in square feet |
 | displacement | Displacement in pounds |
 
 ### `getCapsizeRatio(beam, displacement)`
-| Arguments | Description |
+| Parameters | Description |
 | --- | --- |
 | beam | Beam in feet |
 | displacement | Displacement in pounds |
 
 ### `getMotionComfort(loa, lwl, beam, displacment)`
-| Arguments | Description |
+| Parameters | Description |
 | --- | --- |
 | loa | Length overall in feet |
 | lwl | Length of waterline in feet |
