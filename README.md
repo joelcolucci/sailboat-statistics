@@ -1,4 +1,4 @@
-# Sailboat Statistics
+# Sailboat Statistics [![NPM version](https://img.shields.io/npm/v/sailboat-statistics.svg)](https://www.npmjs.com/package/sailboat-statistics)
 > Functions to calculate common sailboat statistics
 
 ## Installation
